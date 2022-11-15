@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Fasthand&family=Gemunu+Libre:wght@300;600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+html{
+    font-size: 18px;
+}
+:root{
+    /* CSS HEX */
+--dark-olive-green: #606c38ff;
+--kombu-green: #283618ff;
+--cornsilk: #fefae0ff;
+--earth-yellow: #dda15eff;
+--liver-dogs: #bc6c25ff;
+/* CSS HEX */
+--skobeloff: #006466ff;
+--midnight-green-eagle-green: #065a60ff;
+--midnight-green-eagle-green-2: #0b525bff;
+--midnight-green-eagle-green-3: #144552ff;
+--charcoal: #1b3a4bff;
+--prussian-blue: #212f45ff;
+--space-cadet: #272640ff;
+--dark-purple: #312244ff;
+--dark-purple-2: #3e1f47ff;
+--palatinate-purple: #4d194dff;
+--castleton-green: #005941ff;
+--cadet: #556f7aff;
+--steel-teal: #5a7d7cff;
+--powder-blue: #b8d8d8ff;
+--cadet-blue: #7a9e9fff;
+
+--black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: Poppins, cursive;
+    text-decoration: none;
+    opacity: 200%;
+}
+
+
+body{
+    width: cover;
+    background:linear-gradient(360deg, var(--black)20%, var(--orange-web)); 
+    background-position:center; 
+    background-attachment: fixed;
+    
+}
+
+.header{
+    min-width: 250px;
+    height:fit-content ;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 100);
+    animation: header 1s ease 0s 1 normal forwards;
+}
+
+ @keyframes header {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+} 
+
+.header__section{
+    min-width: 250px;
+    color: var(--platinum);
+    text-shadow: 3px 3px 10px var(--platinum);
+    transition: 1s;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}   
+
+.header__section nav{
+    min-width: 250px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__section a{
+    min-width: 250px;
+    padding:10px 25px;
+    color:var(--platinum);
+}
+
+.main{
+    min-width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__section{
+    width:30vw;
+    height: 50vh;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    animation: ingresar 2s ease 0s 1 normal forwards;
+}
+
+@keyframes ingresar {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.main__section__article{
+    min-width: 250px;
+    width: 20vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5em;
+    background-color: var(--oxford-blue);
+    box-shadow: 5px 5px 30px var(--oxford-blue);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.main__section__article img {
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.main__section__article h2{
+    width: fit-content;
+    height: fit-content;
+     font-size: 35px;
+    color: var(--platinum);
+    text-shadow: 3px 3px 10px var(--orange-web); 
+} 
+
+.main__section__article button{
+    min-width: 250px;
+    width: auto;
+    height: 2em;
+    font-size: 18px;
+    border: var(--platinum);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px var(--orange-web);
+    background-color: var(--orange-web);
+    cursor:pointer;
+    transition: 500ms;
+}
+
+.main__section__article a{
+    color: var(--platinum);
+}
+
+.main__section__article button:hover{
+    background-color: rgb(255, 123, 0);
+    box-shadow: 10px 10px 10px rgb(255, 123, 0);
+}
+
+footer{
+    min-width: 250px;
+    height: fit-content;
+    font-size: 15px;
+    background-color: black;
+    margin:auto;
+    display: flex;
+    color: var(--platinum);
+    text-align: justify;
+}
