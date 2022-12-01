@@ -81,6 +81,7 @@ body{
     text-shadow: 3px 3px 10px var(--platinum);
     transition: 1s;
     display: flex;
+    justify-content: center;
     text-align: center;
     margin: auto;
 }   
@@ -187,6 +188,8 @@ footer{
     background-color: black;
     margin:auto;
     display: flex;
-    color: var(--platinum);
-    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    text-align: center;
 }
