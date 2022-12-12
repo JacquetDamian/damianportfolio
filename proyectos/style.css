@@ -238,6 +238,7 @@ body::-webkit-scrollbar-thumb{
 
 .main__section2 input:hover, textarea:hover{
     background-color: rgb(167, 165, 165);
+    transform: scale(1.1);
 }
 
 .main__section2 form button{
