@@ -303,7 +303,7 @@ body::-webkit-scrollbar-thumb{
     min-width: 250px;
     height: 600px;
     background-color: whitesmoke;
-    padding: 5em 0;
+    margin: 5%;
     display: flex;
     justify-content: space-around;
 }
@@ -473,7 +473,6 @@ body::-webkit-scrollbar-thumb{
     }
     
     .header img:first-child{
-        background-color: var(--burnt-umber);
         border-radius: 15rem;
     }
     

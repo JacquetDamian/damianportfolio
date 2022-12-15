@@ -207,7 +207,7 @@ body::-webkit-scrollbar-thumb{
     height: fit-content;
      font-size: 35px;
     color: var(--platinum);
-    text-shadow: 3px 3px 10px var(--orange-web); 
+    text-shadow: 3px 3px 10px var(--black); 
 } 
 
 .main__section__article button{

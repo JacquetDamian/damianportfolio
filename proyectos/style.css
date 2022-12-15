@@ -171,7 +171,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .main__section__article:nth-child(2){
-    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/coding.svg);
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/template2.png);
     background-repeat: no-repeat;
     background-position: center;
 

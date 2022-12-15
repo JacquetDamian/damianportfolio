@@ -9,9 +9,9 @@ $(function(){
 
     article1.onmouseover = function(){
 
-        article1.innerHTML= 'Template 1';
+        article1.innerHTML= 'HTML/CSS/JavaScript';
 
-        article1.style.cssText = 'background:  linear-gradient(rgba(255,165,0, 0.50), rgba(255, 165,0, 0.50)), url(../img/template1.png); background-position: center; display:flex; justify-content:center; align-items:center; color:var(--platinum);background-repeat: no-repeat; background-size: 400%; box-shadow:5px 5px 5px var(--platinum); transition: 700ms;'
+        article1.style.cssText = 'background:  linear-gradient(rgba(255,165,0, 0.50), rgba(255, 165,0, 0.50)), url(../img/template1.png); background-position: center; display:flex; justify-content:center; align-items:center; color:var(--black);background-repeat: no-repeat; box-shadow:10px 10px 10px var(--black); transition: 700ms;'
 
     }
 
@@ -28,9 +28,9 @@ $(function(){
 
     article2.onmouseover = function(){
 
-        article2.innerHTML= 'Template 2';
+        article2.innerHTML= 'React.js';
 
-        article2.style.cssText = 'background:  linear-gradient(rgba(255,165,0, 0.50), rgba(255, 165,0, 0.50)), url(../img/coding.svg); background-position: center; display:flex; justify-content:center; align-items:center; color:var(--platinum);background-repeat: no-repeat; box-shadow:5px 5px 5px var(--platinum); transition: 700ms;'
+        article2.style.cssText = 'background:  linear-gradient(rgba(255,165,0, 0.50), rgba(255, 165,0, 0.50)), url(../img/template2.png); background-position: center; display:flex; justify-content:center; align-items:center; color:var(--black);background-repeat: no-repeat; box-shadow:10px 10px 10px var(--black); transition: 700ms;'
 
     }
 
@@ -40,7 +40,7 @@ $(function(){
 
         article2.innerHTML= '';
 
-        article2.style.cssText = 'background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/coding.svg); background-repeat: no-repeat; background-position: center; transition:700ms;'
+        article2.style.cssText = 'background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/template2.png); background-repeat: no-repeat; background-position: center; transition:700ms;'
     };
     
 
@@ -48,7 +48,7 @@ $(function(){
 
         article3.innerHTML= 'Template 3';
 
-        article3.style.cssText = 'background:  linear-gradient(rgba(255,165,0, 0.50), rgba(255, 165,0, 0.50)), url(../img/coding.svg); background-position: center; display:flex; justify-content:center; align-items:center; color:var(--platinum);background-repeat: no-repeat; box-shadow:5px 5px 5px var(--platinum); transition: 700ms;'
+        article3.style.cssText = 'background:  linear-gradient(rgba(255,165,0, 0.50), rgba(255, 165,0, 0.50)), url(../img/coding.svg); background-position: center; display:flex; justify-content:center; align-items:center; color:var(--black);background-repeat: no-repeat; box-shadow:10px 10px 10px var(--black); transition: 700ms;'
 
     }
 

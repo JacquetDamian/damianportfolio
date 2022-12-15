@@ -135,18 +135,19 @@ body::-webkit-scrollbar-thumb{
 	}
 }
 
-div{
+.main__sectionh1__div{
     min-width: 250px;
     height:fit-content;
     display: flex;
     text-align: left;
-    margin: 30px 0 0 0;
+    margin: 30px 0 0 20px;
     padding: 25px;
     background-color: rgba(0, 0, 0, 0.219);
     box-shadow: 10px 10px 1px black;
+    border-radius: 20px 0 20px 0;
 }
 
-div h1{
+.main__sectionh1__div h1{
     min-height: fit-content;
     font-size: 60px;
     flex-wrap: wrap;
@@ -157,12 +158,12 @@ div h1{
     flex: 2; 
 }
 
-div h1 em{
+.main__sectionh1__div h1 em{
     color: var(--platinum);
     text-shadow: 3px 3px 10px var(--platinum);
 }
 
-div span {
+.main__sectionh1__div:first-child span {
     width: .5px;
     height: fit-content;
     color:var(--platinum);
@@ -205,15 +206,21 @@ div span {
 
 .main__section__article__p{
     min-width:250px ;
-    width: 50rem;
+    width: 50%;
     height: fit-content;
     text-align: justify;
     font-size: 20px;
     font-weight: 400;
     margin: 20px 0;
     color: var(--platinum);
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 3px 3px 20px var(--black);
     opacity: 80%;
 
+}
+
+.main__section__article__p em{
+    color: var(--orange-web);
 }
 
 .main__section__article__p  span{
@@ -255,6 +262,54 @@ div span {
 .main__section__article__p a:hover{
     font-size: x-large;
 }
+
+
+.main__sectionh2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.main__sectionh2__div{
+    min-width: 250px;
+    height:fit-content;
+    display: flex;
+    text-align: right;
+    margin: 30px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.219);
+    box-shadow: 10px 10px 1px black;
+    border-radius: 20px 0 20px 0;
+}
+
+.main__sectionh2__div__h2{
+    color: var(--orange-web);
+    font-size: xx-large;
+    text-shadow: 3px 3px 10px var(--orange-web);
+}
+
+.main__sectionh2__div__h2 span{
+    animation: type 2s linear 0s infinite normal forwards;
+}
+
+.main__section__article:nth-child(2){
+    width: 100%;
+    height: fit-content;  
+    font-size: 1.5em;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    flex: 1;
+    animation: quienSoy 2s ease 1 normal forwards;
+
+}
+
+
 
 .main__section2{
     min-width:250px ;
@@ -330,4 +385,22 @@ footer{
     align-items: center;
     color: grey;
     text-align: center;
+}
+
+
+@media (max-width:870px) {
+    .main__section__article__p{
+        min-width:250px ;
+        width: 100%;
+        height: fit-content;
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 20px 0;
+        color: var(--platinum);
+        background-color: rgba(0, 0, 0, 0.568);
+        box-shadow: 3px 3px 20px var(--black);
+        opacity: 80%;
+    
+    }
 }
