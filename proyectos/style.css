@@ -88,7 +88,6 @@ body::-webkit-scrollbar-thumb{
 .header__section{
     min-width: 250px;
     color: var(--platinum);
-    text-shadow: 3px 3px 10px var(--platinum);
     transition: 1s;
     display: flex;
     text-align: center;
@@ -267,6 +266,24 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: grey;
+    flex-direction: column;
+    color: white;
     text-align: center;
+}
+
+.footer__navbar{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.footer__navbar img{
+    width: 44px;
+    padding: 10px;
+    height: 44px;
+    transition: 500ms;
+}
+
+.footer__navbar img:hover{
+    transform: scale(1.2);
 }
